@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.datera--calendar.theme1-dark {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: rgb(34, 34, 34);
+  --on-background: white;
+  --max-width: 300px;
+  --button-hover: #1a1a1a;
+  --button-on-hover: white;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #404040;
+  --button-in-range-background: #7f56da;
+  --button-on-in-range-background: white;
+  --button-active: #7f56da;
+  --button-on-active: white;
+}
+
+.datera--calendar.theme1-light {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: white;
+  --on-background: black;
+  --max-width: 300px;
+  --button-hover: #f5f5f5;
+  --button-on-hover: black;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #e0e0e0;
+  --button-in-range-background: #9575cd;
+  --button-on-in-range-background: black;
+  --button-active: #9575cd;
+  --button-on-active: black;
+}
+
+/* Theme 2 */
+.datera--calendar.theme2-dark {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: rgb(23, 55, 99);
+  --on-background: white;
+  --max-width: 300px;
+  --button-hover: #135c94;
+  --button-on-hover: white;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #3c3c3c;
+  --button-in-range-background: #ff9800;
+  --button-on-in-range-background: white;
+  --button-active: #ff9800;
+  --button-on-active: white;
+}
+
+.datera--calendar.theme2-light {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: #fafafa;
+  --on-background: black;
+  --max-width: 300px;
+  --button-hover: #f0f0f0;
+  --button-on-hover: black;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #e0e0e0;
+  --button-in-range-background: #ff9800;
+  --button-on-in-range-background: black;
+  --button-active: #ff9800;
+  --button-on-active: black;
+}
+
+.datera--calendar.theme3-dark {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: rgb(66, 134, 244);
+  --on-background: white;
+  --max-width: 300px;
+  --button-hover: #407fe6;
+  --button-on-hover: white;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #3c3c3c;
+  --button-in-range-background: #e91e63;
+  --button-on-in-range-background: white;
+  --button-active: #e91e63;
+  --button-on-active: white;
+}
+
+.datera--calendar.theme3-light {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: #f5f5f5;
+  --on-background: black;
+  --max-width: 300px;
+  --button-hover: #e0e0e0;
+  --button-on-hover: black;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #bdbdbd;
+  --button-in-range-background: #e91e63;
+  --button-on-in-range-background: black;
+  --button-active: #e91e63;
+  --button-on-active: black;
+}
+.datera--calendar.theme4-dark {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: #262626;
+  --on-background: white;
+  --max-width: 300px;
+  --button-hover: #1a1a1a;
+  --button-on-hover: white;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #404040;
+  --button-in-range-background: #ff9800;
+  --button-on-in-range-background: white;
+  --button-active: #ff9800;
+  --button-on-active: white;
+}
+
+.datera--calendar.theme4-light {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: #f5f5f5;
+  --on-background: black;
+  --max-width: 300px;
+  --button-hover: #e0e0e0;
+  --button-on-hover: black;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #bdbdbd;
+  --button-in-range-background: #ff9800;
+  --button-on-in-range-background: black;
+  --button-active: #ff9800;
+  --button-on-active: black;
+}
+
+/* Theme 5 */
+.datera--calendar.theme5-dark {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: #000000;
+  --on-background: white;
+  --max-width: 300px;
+  --button-hover: #1a1a1a;
+  --button-on-hover: white;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #404040;
+  --button-in-range-background: #7f56da;
+  --button-on-in-range-background: white;
+  --button-active: #7f56da;
+  --button-on-active: white;
+}
+
+.datera--calendar.theme5-light {
+  --box-shadow: 0px 8px 28px 0px rgba(0, 0, 0, 0.5);
+  --background: #f5f5f5;
+  --on-background: black;
+  --max-width: 300px;
+  --button-hover: #e0e0e0;
+  --button-on-hover: black;
+  --button-disabled-background: transparent;
+  --button-on-disabled-background: #bdbdbd;
+  --button-in-range-background: #7f56da;
+  --button-on-in-range-background: black;
+  --button-active: #7f56da;
+  --button-on-active: black;
+}
+.datera--calendar {
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--background);
+  color: var(--on-background);
+  position: absolute;
+  left: var(--position-x);
+  top: var(--position-y);
+  width: 100%;
+  max-width: var(--max-width);
+  user-select: none;
+}
+
+.datera--calendar.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.datera--calendar * {
+  font-family: "Poppins";
+}
+
+.datera--calendar > .datera--grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding-inline: 8px;
+}
+.datera--calendar > .datera--grid.days {
+  grid-template-rows: repeat(6, 1fr);
+  padding-bottom: 8px;
+}
+
+.datera--calendar > .datera--grid > .datera--day {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--on-background);
+}
+
+.datera--day-of-week {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  font-size: 12px;
+  color: var(--on-background);
+}
+
+.datera--calendar > .datera--grid > .datera--day.other {
+  background-color: var(--button-disabled-background);
+  color: var(--button-on-disabled-background);
+}
+.datera--calendar > .datera--grid > .datera--day:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.datera--calendar > .datera--grid > .datera--day.selected {
+  padding: 1px;
+}
+.datera--calendar > .datera--grid > .datera--day.start-range,
+.datera--calendar > .datera--grid > .datera--day.in-range,
+.datera--calendar > .datera--grid > .datera--day.end-range {
+  padding-block: 1px;
+}
+
+.datera--calendar
+  > .datera--grid
+  > .datera--day:not(:disabled):not(.selected):not(.start-range):not(
+    .end-range
+  ):not(.in-range):hover
+  > div,
+.datera--calendar
+  > .datera--grid
+  > .datera--day:not(:disabled):not(.selected):not(.start-range):not(
+    .end-range
+  ):not(.in-range).today
+  > div {
+  background-color: var(--button-hover);
+}
+.datera--calendar > .datera--grid > .datera--day.selected > div,
+.datera--calendar > .datera--grid > .datera--day.start-range > div,
+.datera--calendar > .datera--grid > .datera--day.end-range > div {
+  background-color: var(--button-active);
+  color: var(--button-on-active);
+}
+.datera--calendar > .datera--grid > .datera--day.start-range > div {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.datera--calendar > .datera--grid > .datera--day.end-range > div {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.datera--calendar > .datera--grid > .datera--day.in-range > div {
+  background-color: var(--button-in-range-background);
+  color: var(--button-on-in-range-background);
+  border-radius: 0;
+}
+
+.datera--calendar > .datera--grid > .datera--day > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.datera--calendar > .datera--controls {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 8px;
+}
+
+.datera--calendar > .datera--controls > .datera--control-selects {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.datera--calendar > .datera--controls > .datera--control-selects > select {
+  background-color: transparent;
+  color: var(--on-background);
+  border: none;
+}
+.datera--calendar
+  > .datera--controls
+  > .datera--control-selects
+  > select
+  > option {
+  color: initial;
+}
+
+.datera--calendar > .datera--controls > button {
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border: none;
+  background-color: transparent;
+  color: var(--on-background);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.datera--calendar > .datera--controls > button:disabled {
+  opacity: 0.5;
+}
+.datera--calendar > .datera--controls > button > svg {
+  height: 18px;
+}
