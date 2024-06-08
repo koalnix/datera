@@ -215,6 +215,7 @@
 .datera--calendar > .datera--grid > .datera--day.in-range,
 .datera--calendar > .datera--grid > .datera--day.end-range {
   padding-block: 1px;
+  padding-inline: 0px;
 }
 
 .datera--calendar
