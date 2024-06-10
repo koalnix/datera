@@ -1,6 +1,6 @@
-# Datera
+# Datera.js
 
-Datera is a library designed to manage date input and selection. It offers extensive flexibility in configuring date selection behavior and includes methods for interacting with the date input field. Users can initialize Datera instances with various options, including initial selected dates, selectable year ranges, disabled and enabled dates, the start day of the week, and themes for styling the calendar.
+Datera.js is a library designed to manage date input and selection. It offers extensive flexibility in configuring date selection behavior and includes methods for interacting with the date input field. Users can initialize Datera instances with various options, including initial selected dates, selectable year ranges, disabled and enabled dates, the start day of the week, and themes for styling the calendar.
 
 Version: 1.0.0 &middot; Last updated at: 06-08-2024 &middot; Author: [KoalNix](https://github.com/KoalNix)
 
